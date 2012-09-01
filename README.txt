@@ -5,4 +5,5 @@ newline
 reverted to master branch after experiment branch
 change added to see about ssh problem
 another change...
+made another clone and put in diff directory
  

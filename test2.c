@@ -25,19 +25,21 @@
     
 		if ( choice == 0 ) 
 		{
-		  printf ( "Hello world \n" );
+		  printf("\n");
+		  printf ( "Hello world \n \n" );
 		 
 			
 		 }
 
 	   else if(choice == 1)
-	   {
+	   {   printf("\n");
 		   printf("Goodbye! \n \n");
 		   	   
 	   }
    
 	else if(choice == 2)
 	   {
+		   printf("\n");
 		   printf("I love Git! \n \n");
 		   	   
 	   }
@@ -45,7 +47,7 @@
 		return 0;
 		
 		else
-		   printf("Choice undefined. \n");
+		   printf("\n Choice undefined. \n");
 		   
 
     printf ( "Please choose: \n" );
