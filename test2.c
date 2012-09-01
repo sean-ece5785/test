@@ -16,6 +16,7 @@
   printf ( "Please choose: \n" );
   printf ( "\t 0  Display \"Hello world\" \n" );
   printf ( "\t 1  Display \"Goodbye!\" \n" );
+  printf ( "\t 2  Display \"I love Git!\" \n" );
   printf ( "\t -1 Quit\n" ); 
 
   scanf ( "%d", &choice );
@@ -35,6 +36,11 @@
 		   	   
 	   }
    
+	else if(choice == 2)
+	   {
+		   printf("I love Git! \n \n");
+		   	   
+	   }
 		else if(choice == -1)
 		return 0;
 		
@@ -45,6 +51,7 @@
     printf ( "Please choose: \n" );
     printf ( "\t 0  Display \"Hello world\" \n" );
     printf ( "\t 1  Display \"Goodbye!\" \n" );
+    printf ( "\t 2  Display \"I love Git!\" \n" );
     printf ( "\t -1 Quit\n" ); 
 
     scanf ( "%d", &choice);
